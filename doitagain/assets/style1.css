@@ -1,0 +1,153 @@
+body {
+	background: linear-gradient(1deg, #efddff, #f8e3e8, #b3c7d6, #edf1ff, #f4e6e2);
+	background-size: 1000% 1000%;
+	text-align: center;
+	animation: wave 11s ease infinite;
+}
+
+h1 {
+	color: white;
+	font-family: 'Bebas Neue', cursive;
+	font-size: 5em;
+	letter-spacing: 50px;
+	text-shadow: 7px 7px 7px pink;
+}
+
+h2 {
+	color: white;
+	font-family: 'Bebas Neue', cursive;
+	letter-spacing: 15px;
+}
+
+#content {
+	width: 60vw;
+	flex-wrap: wrap;
+	display: grid;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.row {
+	display: flex;
+	align-items: flex-start;
+	justify-content: space-around;
+	font-family: 'Rubik', sans-serif;
+	color: #ababab;
+	text-align: center;
+}
+
+.music {
+	margin: 5px 5px 5px 5px;
+}
+
+.one {
+	font-size: 1.5em;
+	color: white;
+	text-shadow: 2px 2px 10px #a669db;
+	background-color: #efddff;
+	margin: 5px 5px 5px 5px;
+}
+
+.color1 {
+	flex: 1;
+	width: 30vw;
+	padding: 10px;
+}
+
+.pic1 {
+	flex: 1;
+	width: 30vw;
+	padding: 10px;
+}
+
+.two {
+	font-size: 1.5em;
+	color: white;
+	text-shadow: 2px 2px 10px #ff698d;
+	background-color: #f8e3e8;
+	margin: 5px 5px 5px 5px;
+}
+
+.color2 {
+	flex: 1;
+	width: 30vw;
+	padding: 10px;
+}
+
+.pic2 {
+	flex: 1;
+	width: 30vw;
+	padding: 10px;
+}
+
+.three {
+	font-size: 1.5em;
+	color: white;
+	text-shadow: 2px 2px 10px #4770ff;
+	background-color: #edf1ff;
+	margin: 5px 5px 5px 5px;
+}
+
+.color3 {
+	flex: 1;
+	width: 30vw;
+	padding: 10px;
+}
+
+.pic3 {
+	flex: 1;
+	width: 30vw;
+	padding: 10px;
+}
+
+.four {
+	font-size: 1.5em;
+	color: white;
+	text-shadow: 2px 2px 10px #ff7c57;
+	background-color: #f4e6e2;
+	margin: 5px 5px 5px 5px;
+}
+
+.color4 {
+	flex: 1;
+	width: 30vw;
+	padding: 10px;
+}
+
+.pic4 {
+	flex: 1;
+	width: 30vw;
+	padding: 10px;
+}
+
+.five {
+	font-size: 1.5em;
+	color: white;
+	text-shadow: 2px 2px 10px #5882a1;
+	background-color: #b3c7d6;
+	margin: 5px 5px 5px 5px;
+}
+
+.color5 {
+	flex: 1;
+	width: 30vw;
+	padding: 10px;
+}
+
+.pic5 {
+	flex: 1;
+	width: 30vw;
+	padding: 10px;
+}
+
+@keyframes wave {
+	0% {
+		background-position: 50% 0%;
+	}
+	50% {
+		background-position: 50% 100%;
+	}
+	100% {
+		background-position: 50% 0%;
+	}
+}
