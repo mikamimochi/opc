@@ -1,0 +1,78 @@
+body {
+	background-color: #545454;
+	padding: 3%;
+	position: relative;
+	text-align: center;
+}
+
+.text {
+	background-color: white;
+	margin-left: 20%;
+	margin-right: 20%;
+	padding-left: 15%;
+	padding-right: 15%;
+	padding-top: 3%;
+	padding-bottom: 3%;
+}
+
+.info {
+	background-color: pink;
+	margin-left: 5%;
+	margin-right: 5%;
+	padding-left: 5%;
+	padding-right: 5%;
+	padding-top: 3%;
+	padding-bottom: 3%;
+}
+
+.button {
+	border-color: pink;
+	border-style: double;
+	margin-left: 30%;
+	margin-right: 30%;
+	margin-top: 10%;
+	margin-bottom: 10%;
+	padding: 3%;
+}
+
+a:link {
+	text-decoration: none;
+}
+
+h1 {
+	background-color: white;
+	color: #915b04;
+	font-family: 'Cinzel', serif;
+	font-size: 3em;
+	text-transform: uppercase;
+}
+
+.info h1 {
+	font-family: 'Nanum Myeongjo', serif;
+	font-size: 2em;
+	letter-spacing: 5px;
+	text-transform: uppercase;
+}
+
+h2 {
+	color: #545454;
+	font-family: 'Nanum Myeongjo', serif;
+	font-weight: bold;
+	letter-spacing: 5px;
+}
+
+p {
+	background-color: white;
+	color: #737272;
+	font-family: 'Nanum Myeongjo', serif;
+	letter-spacing: 5px;
+	line-height: 3em;
+}
+
+li {
+	background-color: white;
+	color: #737272;
+	font-family: 'Nanum Myeongjo', serif;
+	letter-spacing: 5px;
+	line-height: 3em;
+}
