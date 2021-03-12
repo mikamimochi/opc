@@ -1,0 +1,30 @@
+body {
+	background-image: url(back2.jpg);
+	color: white;
+	text-align: center;
+	background-repeat: no-repeat;
+  	background-size: cover;
+}
+
+h1{
+	font-family: 'Coda Caption', sans-serif;
+	color: #ffe6e6;
+	animation-delay: 3s;
+	animation: stretch ease 3s;
+}
+
+h2{
+	font-family: 'Coda Caption', sans-serif;
+	animation: bounce infinite 2s;
+}
+
+@keyframes stretch {
+    0% { transform: scaleX(1.7) }
+    100% { transform: scaleX(1) }
+}
+
+@keyframes bounce {
+   0%, 20%, 50%, 80%, 100% {transform: translateY(0);} 
+   40% {transform: translateY(-30px);} 
+   60% {transform: translateY(-15px);} 
+} 

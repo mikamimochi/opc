@@ -1,0 +1,78 @@
+body {
+	background-image: url(back);
+	color: white;
+	text-align: center;
+	background-repeat: no-repeat;
+  	background-size: cover;
+}
+
+h1{
+	font-family: 'Coda Caption', sans-serif;
+	color: #ff36f5;
+	animation-delay: 3s;
+	animation: shake infinite 1s;
+}
+
+h2{
+	font-family: 'Coda Caption', sans-serif;
+	animation: shake infinite 5s;
+}
+
+#bio p {
+	margin-top: 14%;
+	margin-left: 43%;
+	margin-right: 24%;
+	color: #ff36f5;
+	font-family: 'Roboto Mono', monospace;
+	font-size: large;
+	text-align: right;
+	left: 2%;
+	animation: fadeIn ease 10s;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+#ghost{
+	width: 7%;
+	position: absolute;
+	margin-left: 27%;
+	animation: float infinite 3s;
+}
+
+@keyframes fadeIn {
+	0% {opacity:0;}
+	100% {opacity:1;}
+}
+
+.whole{
+	padding: 3%;
+	position: relative;
+}
+
+@keyframes shake {
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+  10% { transform: translate(-1px, -2px) rotate(-1deg); }
+  20% { transform: translate(-3px, 0px) rotate(1deg); }
+  30% { transform: translate(3px, 2px) rotate(0deg); }
+  40% { transform: translate(1px, -1px) rotate(1deg); }
+  50% { transform: translate(-1px, 2px) rotate(-1deg); }
+  60% { transform: translate(-3px, 1px) rotate(0deg); }
+  70% { transform: translate(3px, 1px) rotate(-1deg); }
+  80% { transform: translate(-1px, -1px) rotate(1deg); }
+  90% { transform: translate(1px, 2px) rotate(0deg); }
+  100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+
+@keyframes float{
+	0%{
+    	transform: translatey(0%);
+	}
+    50%{
+    	transform: translatey(30%);
+	}
+	100%{
+		transform: translatey(0%);
+	}
+}
