@@ -1,0 +1,83 @@
+body {
+	background: url("photos/background.jpg");
+	text-align: center;
+	color: white;
+	animation: wave 20s linear infinite;
+	margin-left: auto;
+	margin-right: auto;
+	width: 30%;
+}
+
+h1 {
+	color: white;
+	font-family: 'Jockey One', sans-serif;
+	font-size: 5em;
+	text-shadow: 4px 4px 4px #4e00ad;
+	animation: glitch 5s linear infinite;
+}
+
+p {
+	color: white;
+	font-family: 'Jockey One', sans-serif;
+	text-shadow: 4px 4px 4px #4e00ad;
+	font-size: 2em;
+	letter-spacing: 5px;
+}
+
+@media only screen and (max-width: 950px){
+	body {
+		margin-left: auto;
+		margin-right: auto;
+		width: 50%;
+	}
+
+    h1 {
+		font-size: 4em;
+	}
+	p {
+		font-size: 1em;
+	}
+}
+
+@media only screen and (max-width: 800px){
+	body {
+		margin-left: auto;
+		margin-right: auto;
+		width: 90%;
+	}
+
+    h1 {
+		font-size: 3em;
+	}
+	p {
+		font-size: 1em;
+		line-height: 0.8em;
+	}
+}
+
+@keyframes glitch {
+	0% {
+		opacity: 1;
+	}
+	5% {
+		opacity: 0.3;
+	}
+	10% {
+		opacity: 1;
+	}
+	20% {
+		opacity: 1;
+	}
+	30% {
+		opacity: 0.25;
+	}
+	50% {
+		opacity: 1;
+	}
+	75% {
+		opacity: 0.5;
+	}
+	100% {
+		opacity: 1;
+	}
+}
