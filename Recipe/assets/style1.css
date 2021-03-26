@@ -1,0 +1,114 @@
+body {
+	background: #ffc2d7;
+	text-align: center;
+	margin-left: 200px;
+	margin-right: 200px;
+}
+
+h1 {
+	color: white;
+	font-family: 'Staatliches', cursive;
+	font-size: 5em;
+	letter-spacing: 10px;
+	text-shadow: 2px 2px 2px yellow;
+	animation: fadeIn 4s;
+}
+
+h2 {
+	color: white;
+	font-family: 'Bebas Neue', cursive;
+	letter-spacing: 4px;
+	animation: fadeIn 5s;
+}
+
+h3 {
+	color: white;
+	font-family: 'Bebas Neue', cursive;
+	letter-spacing: 2px;
+	font-weight: lighter;
+	animation: fadeIn 5s;
+}
+
+p {
+	color: #c28f69;
+	font-size: 2em;
+	font-family: 'Bebas Neue', cursive;
+	animation: fadeIn 5s;
+}
+
+@media only screen and (max-width: 950px){
+	body {
+		margin-left: auto;
+		margin-right: auto;
+		width: 50%;
+	}
+
+    h1 {
+		font-size: 4em;
+	}
+
+	p {
+		font-size: 1em;
+		line-height: 1.2em;
+	}
+}
+
+@media only screen and (max-width: 800px){
+	body {
+		margin-left: auto;
+		margin-right: auto;
+		width: 90%;
+	}
+
+    h1 {
+		font-size: 3em;
+	}
+
+	p {
+		font-size: 1em;
+		line-height: 1em;
+	}
+}
+
+.row {
+	display: flex;
+	justify-content: center;   
+	align-items: flex-start;
+}
+
+#ingredients {
+	text-align: left;
+	margin-right: 5px;
+}
+
+#instructions {
+	text-align: left;
+	margin-left: 5px;
+}
+
+#ending {
+	color: #ff5c94;
+	font-size: 3em;
+	animation: bounce 2s infinite;
+}
+
+@keyframes fadeIn {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+@keyframes bounce {
+	0%, 20%, 50%, 80%, 100% {
+		transform: translateY(0);
+	}
+	40% {
+		transform: translateY(-30px);
+	}
+	60% {
+		transform: translateY(-15px);
+	} 
+} 
