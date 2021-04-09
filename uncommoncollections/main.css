@@ -1,0 +1,112 @@
+
+body {
+    font-family: helvetica;
+    background: rgb(178, 144, 178);
+}
+
+/*Title, etc Shiny 1, Shiny 2*/
+h1{
+
+}
+
+/*Header, etc Shiny Pokemon Collection*/
+.filter{
+	font-family: 'Bebas Neue', cursive;
+	padding: 2rem;
+	text-align: center;
+	font-size: 50px;
+	color: ;
+}
+
+/*Div of each box containing information*/
+.fish-container{
+    display: block;
+    margin-top: 1.5rem;
+
+    border: 3px solid rgb(227, 90, 61);
+  
+    text-align: center;
+    margin-left: 30rem;
+    margin-right: 30rem;
+    
+}
+
+/*Behavior of div when mouse hovers*/
+.fish-container:hover { 
+    background: rgb(244, 183, 170);
+    color: white;
+    cursor: pointer;
+  }
+
+/*Behavior of div when "active" or in otherwords, clicked on*/
+.fish-container.active{
+    background: rgb(244, 183, 170);
+    color: white;
+    background: rgb(244, 183, 170);
+}
+
+.fish-ball{
+	width:50%;
+}
+
+.fish-ball.active{
+	display:none;
+}
+
+/*Image*/
+.fish-img{
+	width: 100%;
+	height: auto;
+	display: none;
+}
+
+/*Active state of image (clicked on)*/
+.fish-img.active{
+	display: block;
+}
+
+/*Pokemon Name*/
+.fish-name{
+	display: none;
+}
+
+/*Active state of poke name (clicked on)*/
+.fish-name.active{
+	display: block;
+	color: white;
+	font-family: 'Bebas Neue', cursive;
+	font-weight: lighter;
+	letter-spacing: 2px;
+	font-size: 30px;
+	margin-bottom:2rem;
+}
+
+/*Pokemon CP*/
+.fish-cp{
+	display: none;
+}
+
+/*Active state of CP(clicked on)*/
+.fish-cp.active{
+	display: block;
+}
+
+/*Pokemon Location*/
+.fish-found{
+	display: none;
+}
+
+/*Active state of location found (clicked on)*/
+.fish-found.active{
+	display: block;
+}
+
+/*Pokemon caught time*/
+.fish-time{
+	display: none;
+}
+
+/*Active state of caught time (clicked on)*/
+.fish-time.active{
+	display: block;
+}
