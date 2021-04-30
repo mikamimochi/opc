@@ -1,0 +1,154 @@
+body {
+	background: linear-gradient(1deg, #cef0e0, #abe0da, #b3c7d6, #b8e0ff, #b8c5ff);
+	background-size: 2000% 2000%;
+	text-align: center;
+	animation: wave 11s ease infinite;
+	margin: 50px;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+
+h1 {
+	color: white;
+	font-family: 'Fredoka One', cursive;
+	font-size: 5em;
+	text-shadow: 7px 7px 7px #d4f8ff;
+}
+
+h1 span {
+	border-radius: 50%;
+	padding: 10px 20px;
+	display: inline-flex;
+	animation: bounce 0.5s infinite;
+} 
+
+h1 span:nth-child(1) {
+	animation-delay: 0.1s;
+} 
+  
+h1 span:nth-child(2) {
+	animation-delay: 0.2s;
+} 
+  
+h1 span:nth-child(3) {
+	animation-delay: 0.3s;
+} 
+  
+h1 span:nth-child(4) {
+	animation-delay: 0.4s;
+} 
+  
+h1 span:nth-child(5) {
+	animation-delay: 0.5s;
+} 
+  
+h1 span:nth-child(6) {
+	animation-delay: 0.6s;
+}
+
+h1 span:nth-child(7) {
+	animation-delay: 0.1s;
+} 
+
+h2 {
+	font-family: 'Rubik', sans-serif;
+	color: white;
+	text-shadow: 2px 2px 10px green;
+}
+
+#content {
+	width: 60vw;
+	flex-wrap: wrap;
+	display: grid;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.row {
+	display: flex;
+	align-items: flex-start;
+	justify-content: space-around;
+	text-align: center;
+}
+
+.dot-container {
+	display: flex;
+}
+
+.dot {
+	background: white;
+	border-radius: 50%;
+	box-shadow: 0 0 0 0 rgba(0, 0, 0, 1);
+	margin: 10px;
+	height: 20px;
+	width: 20px;
+	transform: scale(1);
+}
+
+.dot.one {
+	background: white;
+	box-shadow: 0 0 0 0 rgba(255, 255, 255, 1);
+}
+
+.dot:hover {
+	animation: but-white 2s infinite;
+}
+
+@keyframes but-white {
+	0% {
+		transform: scale(0.95);
+		box-shadow: 0 0 0 0 rgba(52, 172, 224, 0.7);
+	}
+	
+	70% {
+		transform: scale(1.5);
+		box-shadow: 0 0 0 10px rgba(52, 172, 224, 0);
+	}
+	
+	100% {
+		transform: scale(0.95);
+		box-shadow: 0 0 0 0 rgba(52, 172, 224, 0);
+	}
+}
+
+@keyframes but-black {
+	0% {
+		transform: scale(0.95);
+		box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.7);
+	}
+	
+	70% {
+		transform: scale(1);
+		box-shadow: 0 0 0 10px rgba(0, 0, 0, 0);
+	}
+	
+	100% {
+		transform: scale(0.95);
+		box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+	}
+}
+
+@keyframes wave {
+	0% {
+		background-position: 50% 0%;
+	}
+	50% {
+		background-position: 50% 100%;
+	}
+	100% {
+		background-position: 50% 0%;
+	}
+}
+
+@keyframes bounce { 
+	0% {
+		transform: translateY(0px);
+	}
+	50% {
+		transform: translateY(-20px);
+	}
+	100% {
+		transform: translateY(0px);
+	}
+}
